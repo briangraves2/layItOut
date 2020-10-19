@@ -17,47 +17,86 @@ div
 .b1
 {
     background-color:red;
+    position:fixed;
+    float:left;
+    width:100px;
+    height:600px
 }
-
-.b2
-{
-    background-color:yellow;
-}
-
 .b3
 {
     background-color:blue;
     color:white;
+     float:left;
+    width:100px;
+    height:600px;
+    margin-left:200px
 }
-
-.b4
-{
-    background-color:orange;
-}
-
-.b5
-{
-    background-color:purple;
-    color:white;
-}
-
 .b6
 {
     background-color:darksalmon;
+    position:fixed;
+    width:100px;
+    height:200px;
+    margin-left:100px;
+    margin-top:200px
 }
+    .b7
+{
+    background-color:green;
+    position:fixed;
+    width:100px;
+    height:400px;
+    margin-left:400px;
+    margin-top:200px
+    }
+        .b8
+{
+    background-color:hotpink;
+    position:fixed;
+    width:100px;
+    height:100px;
+    margin-left:400px;
+    }
+    
+    
+    
+@keyframes example {
+  0%   {background-color: red;}
+  10%  {background-color: yellow;}
+  20%  {background-color: blue;}
+  30% {background-color: green;}
+      40% {background-color: orange;}
+      50% {background-color: hotpink;}
+      60% {background-color: purple;}
+      70% {background-color: gray;}
+      80% {background-color: darkturquoise;}
+      90% {background-color: lightskyblue;}
+      100% {background-color: black;}
+    
+    
+    
 
+
+ 
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+    animation-iteration-count: 5;
 
     
 </style>
 </head>
 <html>
 <body>
-    <div class = "b1">b1</div>
-    <div class = "b2">b2</div>
-    <div class = "b3">b3</div>
-    <div class = "b4">b4</div>
-    <div class = "b5">b5</div>
-    <div class = "b6">b6</div>
+    <div class = "b1"></div>
+    <div class = "b3"></div>
+    <div class = "b6"></div>
+    <div class = "b7"></div>
+    <div class = "b8"></div>
     
     
 </body>
